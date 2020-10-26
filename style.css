@@ -38,7 +38,7 @@ body{
     background: #eee;
 }
 h5{
-    font-size: 1.1em;  
+    font-size: 1.3em;  
 }
 .quotations{
     color: rgba(255,255,255,0.7);
@@ -141,7 +141,7 @@ h5{
         grid-template-areas: " quote1 quote1 quote2"
                              " quote3 quote4 quote4"
                              " quote5 quote5 quote5";
-        gap: 20px;
+        gap: 25px;
     }
     .quote-container{
         display: flex;
@@ -179,7 +179,7 @@ h5{
         grid-template-rows: 1fr 1fr;
         grid-template-areas: " quote1 quote1 quote2 quote5"
                              " quote3 quote4 quote4 quote5";
-        gap: 15px;
+        gap: 25px;
     }
     .quote1{
         grid-area: quote1;
