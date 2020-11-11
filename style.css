@@ -38,7 +38,7 @@ body{
     background: #eee;
 }
 h5{
-    font-size: 1.3em;  
+    font-size: 1.1em;  
 }
 .quotations{
     color: rgba(255,255,255,0.7);
@@ -72,11 +72,11 @@ h5{
 
 /* mobile styles */
 .container{
-    margin: 5em auto 0;
+    margin: 3em auto 0;
     width: 75%;
     max-width: 21rem;
-    display: grid;
-    grid-template-columns: auto;
+    display: flex;
+    flex-direction: column;
     gap: 30px;
 }
 .quote-container{
@@ -141,7 +141,7 @@ h5{
         grid-template-areas: " quote1 quote1 quote2"
                              " quote3 quote4 quote4"
                              " quote5 quote5 quote5";
-        gap: 25px;
+        gap: 20px;
     }
     .quote-container{
         display: flex;
@@ -179,7 +179,7 @@ h5{
         grid-template-rows: 1fr 1fr;
         grid-template-areas: " quote1 quote1 quote2 quote5"
                              " quote3 quote4 quote4 quote5";
-        gap: 25px;
+        gap: 15px;
     }
     .quote1{
         grid-area: quote1;
